@@ -49,3 +49,7 @@ Instalamos **maven**
 Y añadimos en Tomcat un usuario para la configuración
 <br>
 ![Imagen de usuario para Maven en Tomcat](./img/011.png)
+
+En la configuración de Maven, en **/etc/maven/settings.xml**, lo editamos para añadir las credenciales del paso anterior
+<br>
+![Imagen de configuración de Maven](./img/012.png)

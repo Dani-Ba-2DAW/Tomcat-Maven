@@ -12,3 +12,7 @@ sudo useradd -s /bin/false -g tomcat9 -d /etc/tomcat9 tomcat9
 sudo service tomcat9 start
 
 sudo cp /vagrant/config/tomcat-users.xml /etc/tomcat9
+sudo cp /vagrant/config/settings.xml /etc/maven
+
+sudo service maven restart
+sudo service tomcat9 restart
