@@ -40,3 +40,12 @@ Se añade aquí
 Y debe quedar así
 <br>
 ![Imagen de despliegue manual resultado](./img/009.png)
+
+## Instalación de Maven
+Instalamos **maven**
+<br>
+![Imagen de instalación de Maven](./img/010.png)
+
+Y añadimos en Tomcat un usuario para la configuración
+<br>
+![Imagen de usuario para Maven en Tomcat](./img/011.png)

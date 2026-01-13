@@ -3,7 +3,7 @@
 apt-get update
 apt-get upgrade -y
 
-apt install -y openjdk-11-jdk tomcat9 tomcat9-admin
+apt install -y openjdk-11-jdk tomcat9 tomcat9-admin maven
 
 groupadd tomcat9
 

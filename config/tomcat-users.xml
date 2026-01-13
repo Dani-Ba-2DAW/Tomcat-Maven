@@ -26,4 +26,5 @@
     <user username="ddm"
           password="ddm1234"
           roles="admin,admin-gui,manager,manager-gui"/>
+    <user username="deploy" password="deploy1234" roles="manager-script"/>
 </tomcat-users>
