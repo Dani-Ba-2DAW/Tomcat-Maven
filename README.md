@@ -12,3 +12,8 @@ Usamos el comando **sudo service tomcat9 status** para comprobar que Tomcat est�
 Abrimos **[localhost:8080](http://localhost:8080)** en el navegador y se puede comprobar que funciona
 <br>
 ![Imagen de funcionamiento 2](./img/003.png)
+
+## Configuración de la administración
+Editamos el archivo **/etc/tomcat9/tomcat-users.xml** para que quede así
+<br>
+![Imagen de configuración de usuarios en Tomcat](./img/004.png)
