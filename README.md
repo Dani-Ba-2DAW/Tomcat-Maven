@@ -29,3 +29,14 @@ Y comprobamos que esté
 ![Imagen de instalación de administración](./img/006.png)
 <br>
 ![Imagen de instalación de administración](./img/007.png)
+
+## Despliegue manual mediante GUI
+Usamos un archivo (se ha añadido a la carpeta "additions" para mejor acceso) proporcionado para esta práctica en la interfaz gráfica
+
+Se añade aquí
+<br>
+![Imagen de despliegue manual GUI](./img/008.png)
+
+Y debe quedar así
+<br>
+![Imagen de despliegue manual resultado](./img/009.png)
