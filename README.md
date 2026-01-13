@@ -7,4 +7,8 @@ Ejecutamos los siguientes comandos (la imagen es el archivo de provisión, si us
 ### Comprobación de funcionamiento
 Usamos el comando **sudo service tomcat9 status** para comprobar que Tomcat está funcionando correctamente.
 <br>
-![Imagen de named.conf.options](./img/002.png)
+![Imagen de funcionamiento 1](./img/002.png)
+
+Abrimos **[localhost:8080](http://localhost:8080)** en el navegador y se puede comprobar que funciona
+<br>
+![Imagen de funcionamiento 2](./img/003.png)
