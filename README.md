@@ -53,3 +53,12 @@ Y añadimos en Tomcat un usuario para la configuración
 En la configuración de Maven, en **/etc/maven/settings.xml**, lo editamos para añadir las credenciales del paso anterior
 <br>
 ![Imagen de configuración de Maven](./img/012.png)
+
+## Creación de un proyecto
+Ejecutamos el comando **mvn archetype:generate -DgroupId=com.ddm -DartifactId=ddm-test -Ddeployment -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=fa**, tiene que acabar así
+<br>
+![Imagen de creación de proyecto](./img/013.png)
+
+Luego, dentro del directorio que se habrá creado (en este caso, **ddm-test**), editaremos el archivo **pom.xml** de esta forma
+<br>
+![Imagen de edición de metadatos del proyecto](./img/014.png)
