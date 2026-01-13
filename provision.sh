@@ -15,6 +15,9 @@ cp /vagrant/config/tomcat-users.xml /etc/tomcat9
 cp /vagrant/config/settings.xml /etc/maven
 
 mvn archetype:generate -DgroupId=com.ddm -DartifactId=ddm-test -Ddeployment -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=fa
-cp /vagrant/config/pomtest.xml ddm-test/pom.xml
+cd ddm-test
+cp /vagrant/config/pomtest.xml pom.xml
+mvn tomcat7:deploy
+cd ..
 
 service tomcat9 restart

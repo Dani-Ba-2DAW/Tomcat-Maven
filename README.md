@@ -62,3 +62,14 @@ Ejecutamos el comando **mvn archetype:generate -DgroupId=com.ddm -DartifactId=dd
 Luego, dentro del directorio que se habrá creado (en este caso, **ddm-test**), editaremos el archivo **pom.xml** de esta forma
 <br>
 ![Imagen de edición de metadatos del proyecto](./img/014.png)
+
+### Despliegue de un proyecto
+Ejecutamos el comando **mvn tomcat7:deploy** para desplegarla, el comando debe dar un resultado similar a este
+<br>
+![Imagen de despliegue](./img/015.png)
+
+Así se ve gráficamente
+<br>
+![Imagen de proyecto gráfico 1](./img/016.png)
+<br>
+![Imagen de proyecto gráfico 2](./img/017.png)
