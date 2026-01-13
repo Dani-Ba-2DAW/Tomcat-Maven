@@ -20,5 +20,11 @@ cp /vagrant/config/pomtest.xml pom.xml
 mvn tomcat7:deploy
 cd ..
 git clone https://github.com/cameronmcnz/rock-paper-scissors.git
+cd rock-paper-scissors
+# git config --global --add safe.directory /home/vagrant/rock-paper-scissors
+# git checkout patch-1
+# cp /vagrant/config/pom.xml pom.xml
+# mvn tomcat7:deploy
+cd ..
 
 service tomcat9 restart

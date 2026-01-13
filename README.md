@@ -77,6 +77,18 @@ Así se ve gráficamente
 ## Tarea
 ¡Importante, es necesario instalar **git** antes de proseguir!
 
+### Clonar repositorio
 Primero clonamos el repositorio de https://github.com/cameronmcnz/rock-paper-scissors
 <br>
 ![Imagen de tarea - clonar repositorio](./img/018.png)
+
+### Modificar y lanzar
+Editamos el **pom.xml** para que quede así
+<br>
+![Imagen de tarea - modificar metadatos](./img/019.png)
+
+Lo desplegamos como hemos mencionado antes y deben aparecer gráficamente
+<br>
+![Imagen de tarea - url en interfaz gráfica](./img/020.png)
+<br>
+![Imagen de tarea - en funcionamiento](./img/021.png)
