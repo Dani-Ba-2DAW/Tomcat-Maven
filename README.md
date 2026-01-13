@@ -17,3 +17,15 @@ Abrimos **[localhost:8080](http://localhost:8080)** en el navegador y se puede c
 Editamos el archivo **/etc/tomcat9/tomcat-users.xml** para que quede así
 <br>
 ![Imagen de configuración de usuarios en Tomcat](./img/004.png)
+
+## Instalar panel administrativo
+Instalamos **tomcat9-admin** (en mi cado lo he añadido a la provisión)
+<br>
+![Imagen de instalación de administración](./img/005.png)
+
+### Vista gráfica
+Y comprobamos que esté
+<br>
+![Imagen de instalación de administración](./img/006.png)
+<br>
+![Imagen de instalación de administración](./img/007.png)
