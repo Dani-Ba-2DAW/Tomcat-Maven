@@ -73,3 +73,10 @@ Así se ve gráficamente
 ![Imagen de proyecto gráfico 1](./img/016.png)
 <br>
 ![Imagen de proyecto gráfico 2](./img/017.png)
+
+## Tarea
+¡Importante, es necesario instalar **git** antes de proseguir!
+
+Primero clonamos el repositorio de https://github.com/cameronmcnz/rock-paper-scissors
+<br>
+![Imagen de tarea - clonar repositorio](./img/018.png)

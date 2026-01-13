@@ -3,7 +3,7 @@
 apt-get update
 apt-get upgrade -y
 
-apt install -y openjdk-11-jdk tomcat9 tomcat9-admin maven
+apt install -y git openjdk-11-jdk tomcat9 tomcat9-admin maven
 
 groupadd tomcat9
 
@@ -19,5 +19,6 @@ cd ddm-test
 cp /vagrant/config/pomtest.xml pom.xml
 mvn tomcat7:deploy
 cd ..
+git clone https://github.com/cameronmcnz/rock-paper-scissors.git
 
 service tomcat9 restart
